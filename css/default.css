@@ -63,4 +63,4 @@ header li {
     margin: 0 15px 9px 15px;
 }
 header li a { color: #fff; }
- 
+header li a:hover { color: #66ccff}
