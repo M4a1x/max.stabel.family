@@ -1,5 +1,7 @@
-@import url("normalize.css");
-@import url("fontawesome-all.css");
+/* Remove Margins from fontello font for standalone icons */
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    margin: 0;
+}
 
 html {
     font-size: 62.5%;
@@ -13,7 +15,7 @@ body {
 
 header {
     height: 100vh;
-    background: url(../images/fuji_shadow_4k.jpg) no-repeat top center;
+    background: url(../img/fuji_shadow_4k.jpg) no-repeat top center;
     background-size: cover;
     text-align: center;
 
