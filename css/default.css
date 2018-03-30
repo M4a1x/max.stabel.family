@@ -13,9 +13,10 @@ body {
     background: #fffffd;
 }
 
+/* Fullscreen background depending on screensize */
 header {
     height: 100vh;
-    background: url(../img/fuji_shadow_4k.jpg) no-repeat top center;
+    background: url(../img/fuji_shadow.jpg) no-repeat top center;
     background-size: cover;
     text-align: center;
 
@@ -23,7 +24,9 @@ header {
     align-items: center;
     justify-content: center;
 }
- 
+@media (min-width: 1367px) { header { background: url(../img/fuji_shadow_hd.jpg) no-repeat top center; } }
+@media (min-width: 1921px) { header { background: url(../img/fuji_shadow_4k.jpg) no-repeat top center; } }
+
 header .banner {
     width: 85%;
 }
