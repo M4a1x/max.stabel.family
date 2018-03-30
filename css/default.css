@@ -24,8 +24,18 @@ header {
     align-items: center;
     justify-content: center;
 }
-@media (min-width: 1367px) { header { background: url(../img/fuji_shadow_hd.jpg) no-repeat top center; } }
-@media (min-width: 1921px) { header { background: url(../img/fuji_shadow_4k.jpg) no-repeat top center; } }
+@media (min-width: 1367px) { 
+    header {
+         background: url(../img/fuji_shadow_hd.jpg) no-repeat top center; 
+         background-size: cover;
+    } 
+}
+@media (min-width: 1921px) { 
+    header { 
+        background: url(../img/fuji_shadow_4k.jpg) no-repeat top center; 
+        background-size: cover;
+    } 
+}
 
 header .banner {
     width: 85%;
